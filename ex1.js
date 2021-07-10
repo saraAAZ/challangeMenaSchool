@@ -10,6 +10,13 @@ exp
 
 function reverseNestedArray(array) {
     //TODO
+    let reverseArray = [];
+    for(let i = array.length-1 ; i >= 0 ; i--){
+        if (array.length != 0 ){
+            reverseArray.push(array[i]) ;
+        }
+    }   
+    console.log(reverseArray); 
 }
 
 
